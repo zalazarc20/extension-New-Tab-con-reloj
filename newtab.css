@@ -1,0 +1,50 @@
+/* newtab.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f0f0f0; */
+    background-color: #141414;
+  }
+  
+  #clock {
+    font-size: 8rem;
+    color: #f0f0f0;
+  }
+
+  #clock h3{
+    font-size: 4rem;
+  }
+
+  .day{
+    color: #00f320;
+  }
+  
+  #clock .seconds {
+    margin-left: 0;
+    font-size: 2.5rem; /* Cambia este valor al tamaño deseado */
+  }
+
+  #clock .ampm {
+    font-weight: bold;
+    color: #f300b4;
+  }
+
+  span, h3{
+    margin: 0;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 2vh;
+    color: #303030;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  
